@@ -1,0 +1,100 @@
+@media (max-width: 83em) {
+  .heading-thirtiary {
+    font-size: 2.8rem;
+  }
+
+  .how-text {
+    font-size: 1.6rem;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-secondary {
+    font-size: 4.8rem;
+    line-height: 1.2;
+  }
+  .cta-text {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+
+  .header {
+    padding: 3.2rem 4.4rem 0 4.4rem;
+  }
+
+  .section-hero {
+    padding: 5.6rem 4.4rem 14.4rem 4.4rem;
+  }
+
+  .section-how {
+    padding: 5.6rem 4.4rem 4.4rem 4.4rem;
+  }
+
+  .section-cta {
+    padding: 11.2rem 4.4rem 8rem 4.4rem;
+  }
+
+  .footer {
+    padding: 0 8rem 8rem 8rem;
+  }
+
+  .cta-card {
+    padding: 4.8rem;
+  }
+}
+
+@media (max-width: 54em) {
+  .cta-grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-img {
+    transform: translateY(20%);
+  }
+
+  .cta-card {
+    transform: translate(0, 0);
+    margin: 0;
+    text-align: center;
+  }
+
+  .heading-thirtiary {
+    font-size: 2.8rem;
+  }
+
+  .how-text {
+    font-size: 1.6rem;
+  }
+  .heading-secondary {
+    font-size: 4.8rem;
+    line-height: 1.2;
+  }
+  .cta-text {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+
+  .header {
+    padding: 3rem 2rem 0 2rem;
+  }
+
+  .section-hero {
+    padding: 5.6rem 2rem 14.4rem 2rem;
+  }
+
+  .section-how {
+    padding: 6.4rem 2rem;
+  }
+
+  .section-cta {
+    padding: 11.2rem 2rem 0 2rem;
+  }
+
+  .footer {
+    padding: 8rem;
+  }
+}

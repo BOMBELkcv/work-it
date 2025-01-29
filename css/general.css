@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #fcf8ff;
+}
+
+.hero-container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 8rem;
+  font-family: "Fraunces";
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.highlight {
+  display: inline-block;
+  margin-top: -2rem;
+  border-bottom: 2px solid #44ffa1;
+}
+
+.align-text-c {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
